@@ -1,0 +1,9 @@
+{
+	"name": "conpipepd",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c72405a-961a-4294-9177-6a30a3bbad00",
+		"tenantId": "2db0e13c-89f2-4a67-88ce-504c6fb70607"
+	}
+}
