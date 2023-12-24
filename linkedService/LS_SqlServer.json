@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "Integrated Security=False;Data Source=KRANTHI;Initial Catalog=EMPLOYEE;User ID=\"azure \"",
+			"connectionString": "Integrated Security=False;Data Source=KRANTHI;Initial Catalog=adftest;User ID=\"azure \"",
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
