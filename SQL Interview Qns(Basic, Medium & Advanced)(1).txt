@@ -1,0 +1,47 @@
+Basic Questions : 
+
+1. What is the Difference between the Drop, Delete and Truncate?
+2. How to Drop multiple tables at once?
+3. How to Rename a Database Object(i.e, database, table, etc..)?
+4. What is the Difference Between Primary Key and Foreign Key?
+5. Can we join two tables without having Primary Key and Foreign Key Constraints?. If Yes then Why Primary Key and ForeignKey?
+6. How to filter the Data by using starting letter or ending letter?
+7. Is it possible to Update multiple columns at once?
+8. How many types of Constraints are there in SQL and What are those?
+9. Is it possible to join four tables at once?
+10.How to Limit the records of a table in SQL?
+
+
+Medium Questions :
+
+1. How to merge two columns in SQL?
+2. For Example you have created a view on one table. Can we Update that View?
+3. Write a Query to Alter a Column of a table?
+4. Create a table with ID,Name,Salary Columns and While inserting the data into that table the ID column values should be added automatically from 100.
+5. Example You have a view in your Database and that view has an SQL Query for Employee table(i.e: Select * from Employee).
+   The Question is If you Update the Employee table. The View also Updated or Not?
+6. Example You have a column(ID) in a table and that column(ID) has 1 to 20 ID's Now i want to retrive ID's between 1 to 10 
+   for that i will use BETWEEN operator (i.e: Select ID from Employee Where ID BETWEEN 1 And 10).
+   Now How many records will you get 1 to 10 ID's or 1 to 9 ID's?
+7. What is the Difference between Rank() and Dense_Rank()?
+8. What is MERGE Statement in SQL?
+9. How many types of Temporary tables are there in SQL Server? and What are those?
+10.What is Correlated Subquery in SQL
+
+Advanced Questions :
+
+1. What is CTE and What is the Difference between Recursie and Non-Recursive CTE?
+2. What is the difference between the Inine-Table Valued Function and Multi Statement Table-Valued Function?
+3. What is the difference between Clustored Index and Non-Clutsored Index?
+4. What is Trigger in SQL and Types of Triggers?
+5. What is the Difference Between Group By and Partition By?
+6. Imagine you have a table in that table there is two columns(i.e.[ID] and [NAME]), [ID] column has 10 ID's and [NAME] column has 10 Names. 
+   I want to retrive Last 2 records. How will you do that?
+   SELECT * FROM ACCOUNT 
+   ORDER BY ACCOUNT_ID 
+   OFFSET 8 ROWS 
+   FETCH NEXT 2 ROWS ONLY
+7. Write a Query to find Name of the runners, who did not win a single game? (Will send the scrreenshot of the Tables)
+8. Write a Query to fetch all the Employes who are also managers from the EmployeeDetails table?(Will send the scrreenshot of the Tables)
+
+  
